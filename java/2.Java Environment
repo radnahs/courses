@@ -1,0 +1,118 @@
+The Java Virtual Machine is called JVM, is an abstract computing machine or virtual machine
+interface that drives the java code. 
+
+When we talk about the Java applications, then it works only on those machines which have JVM. 
+
+What is JVM?
+JVM, i.e., Java Virtual Machine.
+JVM is the engine that drives the Java code.
+Mostly in other Programming Languages, compiler produce code for a particular system
+but Java compiler produce Bytecode for a Java Virtual Machine.
+When we compile a Java program, then bytecode is generated. Bytecode is the source 
+code that can be used to run on any platform.
+Bytecode is an intermediary language between Java source and the host system.
+It is the medium which compiles Java code to bytecode which gets interpreted on a 
+different machine and hence it makes it Platform/Operating system independent.
+
+JVM's work can be explained in the following manner
+Reading Bytecode.
+Verifying bytecode.
+Linking the code with the library.
+ 
+JVM generates a .class(Bytecode) file, and that file can be run in any OS, but JVM should 
+have in OS because JVM is platform dependent. 
+
+Platform Independent
+Java is called platform independent because of Java Virtual Machine. As different computers 
+with the different operating system have their JVM, when we submit a .class file to any 
+operating system, JVM interprets the bytecode into machine level language. 
+JVM is the main component of Java architecture, and it is the part of the JRE (Java Runtime
+Environment).
+A program of JVM is written in C Programming Language, and JVM is Operating System dependent.
+JVM is responsible for allocating the necessary memory needed by the Java program.
+JVM is responsible for deallocating memory space.
+  
+
+
+Here are few other related articles for you to read:
+What Is the Difference Between JDK, JRE and JVM?
+How Many Types of Memory Areas Are Allocated by JVM?
+What Is Just-in-time (JIT) Compiler?
+
+
+
+
+JDK (Java SE Development Kit) Includes a complete JRE (Java Runtime Environment) plus
+tools for developing, debugging, and monitoring Java applications. JDK is required to 
+build and run Java applications and applets. 
+
+JDK tools divided into five categories:
+Basic Tools
+Remote Method Invocation (RMI) Tools
+Internationalization Tools
+Security Tools
+Java IDL Tools
+
+Basic JDK Tools
+These tools are the foundation of the Java Development Kit. 
+
+javac
+javac is the compiler for the Java programming language; it's used to compile .java file. 
+It creates a class file which can be run by using java command. 
+Example:
+  c:javac TestFile.java
+
+java
+When a class file has been created, the java command can be used to run the Java program. 
+Example:
+  c:java TestFile.class
+
+Both run using the command prompt. .java is the extension for java source files which are 
+simple text files. After coding and saving it, the javac compiler is invoked for creating .class 
+files. As the .class files get created, the Java command can be used to run the java program.
+
+javadoc
+JavaDoc is an API documentation generator for the Java language, which generates documentation in 
+HTML format from Java source code. 
+
+appletviewer
+appletviewer run and debug applets without a web browser, its standalone command-line program to
+run Java applets. 
+
+jar
+The jar is (manage Java archive) a package file format that contains class, text, images and sound 
+files for a Java application or applet gathered into a single compressed file. 
+
+
+Here are few other related articles for you to read:
+What Is the Difference Between JDK, JRE and JVM?
+Java Runtime Environment (JRE)
+
+
+JRE stands for Java Runtime Environment which is used to provide an environment at runtime. It is
+the cause of implementation of JVM (as discussed earlier). It contains a set of supporting libraries
+in combination with core classes and various other files that are used by JVM at runtime. JRE is a 
+part of JDK (Java Development Toolkit) but can be downloaded separately. 
+
+JRE is a set of software tools for the development of Java applications. 
+
+You need JRE to execute your program, which includes two things:
+
+JVM
+Java Library
+  Static - Functions that are required at compile time.
+  Dynamic - Functions that are required at runtime and not at compile time.
+
+In detail, the JRE consists of various components; these are listed below: 
+Java Web Start and Java Plug-in.
+User Interface Toolkit, which includes Abstract Window Toolkit (AWT), Swing, Image Input / Output, 
+Accessibility, drag, and drop, etc.
+Other different base libraries, including Input/Output, extension mechanisms, beans, JMX, JNI, 
+networking, override mechanisms, etc.
+Lang and util base libraries which include lang and util, management, versioning, collections, etc.
+Integration libraries, which includes Interface Definition Language (IDL), Java Database Connectivity (JDBC), Java Naming and Directory Interface (JNDI), Remote Method Invocation (RMI).
+
+
+Here are few other related articles for you to read:
+What Is the Difference Between JDK, JRE and JVM?
+Java SE Development Kit (JDK)
