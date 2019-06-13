@@ -110,7 +110,8 @@ Accessibility, drag, and drop, etc.
 Other different base libraries, including Input/Output, extension mechanisms, beans, JMX, JNI, 
 networking, override mechanisms, etc.
 Lang and util base libraries which include lang and util, management, versioning, collections, etc.
-Integration libraries, which includes Interface Definition Language (IDL), Java Database Connectivity (JDBC), Java Naming and Directory Interface (JNDI), Remote Method Invocation (RMI).
+Integration libraries, which includes Interface Definition Language (IDL), Java Database Connectivity 
+(JDBC), Java Naming and Directory Interface (JNDI), Remote Method Invocation (RMI).
 
 
 Here are few other related articles for you to read:
