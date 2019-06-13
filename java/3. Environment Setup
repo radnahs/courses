@@ -1,0 +1,79 @@
+Java SE(Standard Edition) is freely available on Oracle's website, and it can be installed like any other software. 
+
+Java Development Kit (JDK)
+JDK (Java SE Development Kit) Includes a complete JRE (Java Runtime Environment) plus tools for developing, debugging, and monitoring Java applications. After downloading the SDK, follow the instructions of the installation package. 
+NetBeans IDE (Integrated development environment) also comes with JDK, and it's also freely available on Oracle's website. 
+After the JDK installation, some folders will be created on your hard drive. These are - bin, demo, include, jre, lib, src. 
+bin - This folder contains a compiler and other development tools.
+demo - An example demo program to understand different features of Java.
+include - In this, files are integrated to integrate Java with other languages.
+jre - This folder contains runtime environment files.
+lib - This folder contains Java library files.
+src - This folder contains source code for Java API classes.
+Some essential tools exist in the bin folder: 
+javac - This is Java compiler.
+java - This is an interpreter.
+Appletviewer - This is used to view applet.
+javap - It is used to convert bytecode into program description.
+javah - This includes header files.
+javadoc - It is used for the HTML document.
+Check Whether Java Is Installed or Not
+At the command prompt enter command javac. If you see a screen like below, it means Java is Installed. 
+ 
+javac command is used to compile a Java program; it creates a class file which can be run by using java command. 
+
+Setting up the Environment Variables
+Once you installed Java on your machine, it is required to Set the PATH environment variable to conveniently run the executable (javac.exe, java.exe, javadoc.exe, and so on) from any directory without having to type the full path of the command, such as: 
+C:\javac TestClass.java
+Otherwise, you need to specify the full path every time you run it, such as: 
+C:\Java\jdk1.7.0\bin\javac TestClass.java
+Set path of JDK in Windows
+Suppose you have installed Java in C:\Program Files\Java\jdk1.7.0_21\bin directory
+Right-click on My Computer icon and select Properties.
+Click on the 'Environment variables' button under the 'Advanced' or 'Advanced system settings' tab.
+Add Path as new variable name and C:\Program Files\Java\jdk1.7.0_21\bin as variable value.
+ 
+Setting Path in Linux OS
+Setting the path in Linux OS is the same as setting the path in the Windows OS. But here we use the export tool rather than set. Let's see how to set path in Linux OS: 
+Example:
+export PATH=$PATH:/home/jdk1.7.0_21/bin/
+Here, we have installed the JDK in the home directory under Root (/home). 
+
+
+Here are few other related articles for you to read:
+What is integrated development environment (IDE)?
+How to Compile a Java File Using javac
+
+
+
+Path and Classpath look similar but is a big difference between them. 
+
+What is Path in Java?
+Once you installed Java on your machine, it is required to Set the PATH environment variable to conveniently run the executable (javac.exe, java.exe, javadoc.exe, and so on) from any directory without having to type the full path of the command, such as: 
+C:\javac TestClass.java
+Otherwise, you need to specify the full path every time you run it, such as: 
+C:\Java\jdk1.7.0\bin\javac TestClass.java
+What is Classpath?
+Classpath is system environment variable used by the Java compiler and JVM.
+Java compiler and JVM is used Classpath to determine the location of required class files. 
+C:\Program Files\Java\jdk1.6.0\bin
+See Java installation to know more about How to set the path in Windows and Linux. 
+
+Difference between path and classpath
+path
+classpath
+path variable is used to set the path for all Java software tools like javac.exe, java.exe, javadoc.exe, and so on.
+classpath variable is used to set the path for java classes.
+ 
+
+javac command is used to compile a .java file. You can directly run javac in command prompt if the environment variable is set correctly. 
+
+How to compile a java file using javac command.
+To compile a program, execute the Java compiler by specifying the name of the file. For this, you have to type this command at the command prompt. 
+Example:
+c:\jdk\appdemo> javac Testfile.java
+Output:
+Testfile.java compile successfully.
+javac compiler creates a class file. This file holds the bytecode of the program which contains the instructions to be executed by the Java interpreter. 
+ 
+
